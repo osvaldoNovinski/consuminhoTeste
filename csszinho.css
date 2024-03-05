@@ -1,0 +1,43 @@
+body{
+   display:flex;
+   justify-content: center;
+}
+
+.tudo{
+   display:flex;
+   flex-direction: column;
+}
+.row-flex{
+    label{padding-right:5px;}
+    display: flex;
+    justify-content: space-between;
+    input::-webkit-inner-spin-button {
+       -webkit-appearance: none;
+   }
+   padding:5px;
+  
+}
+
+.input-number{
+   
+}
+
+.titulo{
+   display: flex;
+   justify-content: center;
+   border-bottom:solid 1px;
+}
+
+.rodape{
+    border-top:solid 1px;
+}
+
+.w-50{
+   width:50%;
+}
+
+.centro{
+   display: flex;
+   justify-content: center;
+   padding:5px;
+}

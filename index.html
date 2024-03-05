@@ -1,0 +1,38 @@
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="csszinho.css" media="screen" />
+      <script type="text/javascript" src="escripitezinho.js"></script>
+
+      <title>Comsuminho de Carrinho</title>
+   </head>
+   <body>
+      <div class="tudo">
+            <div class="titulo">
+	      <h2>Carrinho maroto</h2>
+            </div>
+
+            <div>
+            <div class="row-flex">
+               <label>Km anterior</label>
+               <input id="kmAnt" class="input-number" type="number"/>
+            </div>
+            <div class="row-flex">
+               <label>Km atual</label>
+               <input id="kmAtual" class="input-number" type="number"/>
+            </div>
+            <div class="row-flex">
+               <label>Quantia de combustível</label>
+               <input id="qtdComb" class="input-number" type="number"/>
+            </div>
+            <div class="centro">
+               <button id="calcula" onclick="calcMedia()" class="w-50">Calcular</button>
+            </div>
+            <div class="row-flex rodape">
+               <h4>Resultadinho:</h4>
+               <h3 id="result">0 Km por litro</h3>
+            </div>
+         </div>
+
+      </div>
+   </body>
+</html>

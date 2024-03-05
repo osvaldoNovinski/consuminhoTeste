@@ -1,0 +1,4 @@
+let result = 'teste de resultado';
+
+
+calcRes function () => { return result; }
