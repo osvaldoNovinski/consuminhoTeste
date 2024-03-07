@@ -6,7 +6,16 @@ body{
 .tudo{
    display:flex;
    flex-direction: column;
+   position: static;
+   label{
+	   color: #0600ff;
+	   font-weight: 900;
+   }
 }
+.absolutes{
+	//position: absolute;
+}
+
 .row-flex{
     label{padding-right:5px;}
     display: flex;
@@ -18,18 +27,45 @@ body{
   
 }
 
-.input-number{
-   
+#corpinho{
+	z-index:9;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	}
+
+#backbolado{
+   z-index:1;
+   background-image: url(relampaguinho.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 400px;
+   height:400px;
+  // position: relative;
+   opacity: 0.5;
 }
+
 
 .titulo{
    display: flex;
    justify-content: center;
    border-bottom:solid 1px;
+    h2{
+	   color: #0600ff;
+	   font-weight: 900;
+   }
 }
 
 .rodape{
     border-top:solid 1px;
+	 h4{
+	   color: #0600ff;
+	   font-weight: 900;
+   }
+    h3{
+	   color: #0600ff;
+	   font-weight: 900;
+   }
 }
 
 .w-50{
